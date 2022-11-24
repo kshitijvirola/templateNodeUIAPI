@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 require("dotenv").config();
-var url ="mongodb+srv://sam:k258@cluster0.4rqfg.mongodb.net/guess?retryWrites=true&w=majority";//"mongodb://localhost/travel_destinations";
+var url ="mongodb+srv://user:password@cluster0.4rqfg.mongodb.net/guess?retryWrites=true&w=majority";//"mongodb://localhost/travel_destinations";
 
 module.exports = async () => {
   try {
